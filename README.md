@@ -22,7 +22,7 @@ Submission: Your completed portfolio should be pushed to a public GitHub reposit
 Create Your Portfolio: Develop your portfolio website and make sure it includes all required sections.
 Push to GitHub: Ensure your project is pushed to a public GitHub repository.
 Update README: Fill out your README.md file with the necessary information.
-Submit your repo to this form: https://forms.gle/KyyHHaya5sWfcRZH6.
+Submit your repo to this form: https://forms.gle/L1wmfTYpKyPn14Qt8.
 💼 Example Sections
 ## 📝 About Me
 Hi! I'm [Your Name], a passionate web developer...
