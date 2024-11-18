@@ -29,11 +29,11 @@ Your challenge is to build a **personal portfolio website** that showcases your 
 
 ## 👥 Peer Group Collaboration  
 
-To foster teamwork and ensure success for everyone, participants will be organized into **peer groups**.  
+To foster teamwork and ensure success for everyone, participants will be required to collaborate with their **peer groups**.  
 
 ### Peer Group Structure:  
 - **Support**: Collaborate with your group members, share ideas, and troubleshoot issues together.  
-- **Leadership**: Each group will have a designated **peer group leader** responsible for guiding members and ensuring timely submissions.  
+- **Leadership**: Each group's **peer group leader** will be responsible for guiding members and ensuring timely submissions.  
 - **Recognition**: Peer groups where all members successfully submit their portfolios by the deadline will receive **special recognition** during the Award Ceremony.  
 
 **Benefits of Peer Groups:**  
