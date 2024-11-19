@@ -89,7 +89,8 @@ Feel free to reach out! [Contact Form](link-to-your-contact-form)
 - **Documentation (15%)**: Informative README and clear code comments.  
 - **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages or Netlify.  
 - **Development Process (15%)**: Effective collaboration and project management.  
-- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.  
+- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
+- ## 💡 Bonus Points: Individuals whose group members successfully submit a project will earn extra points for their contribution to teamwork and collaboration! 🎯
 
 ---  
 
