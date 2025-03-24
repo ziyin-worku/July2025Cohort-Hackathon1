@@ -78,7 +78,7 @@ Feel free to reach out! [Contact Form](link-to-your-contact-form)
 1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
 2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
 3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form] to share your GitHub repo.  
+4. **Submit Your Project**: Use [this form](https://forms.gle/7YStNrZ88iAzQB819) to share your GitHub repo.  
 
 ---  
 
