@@ -1,6 +1,6 @@
 # Feb 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
 
-Welcome to the **S-Hook Portfolio Challenge!** 🎉  
+Welcome to the **PLP Academy Portfolio Challenge!** 🎉  
 
 This README.md file provides all the details you need to successfully complete and submit your project. Let’s get started! 💻  
 
