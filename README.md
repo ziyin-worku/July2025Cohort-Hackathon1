@@ -1,4 +1,4 @@
-# S-Hook Hackathon 1: Portfolio Challenge 🚀  
+# Feb 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
 
 Welcome to the **S-Hook Portfolio Challenge!** 🎉  
 
