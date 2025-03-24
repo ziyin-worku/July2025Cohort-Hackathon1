@@ -45,9 +45,9 @@ To foster teamwork and ensure success for everyone, participants will be require
 
 ## 📅 Key Dates  
 
-- **Hackathon Starts**: November 21, 2024, at 6:30 PM EAT  
-- **Hackathon Ends**: November 25, 2024, at 6:30 PM EAT  
-- **Award Ceremony**: December 4, 2024, at 6:30 PM EAT  
+**Start Date**: Mar 31st, 2025, 8:00 AM EAT
+**End Date**: April 4th, 2025, 8:00 AM EAT
+**Award Ceremony**: April 11th, 2024, 6:30 PM EAT  
 
 ---  
 
