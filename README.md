@@ -47,7 +47,7 @@ To foster teamwork and ensure success for everyone, participants will be require
 
 **Start Date**: Mar 31st, 2025, 8:00 AM EAT
 **End Date**: April 4th, 2025, 8:00 AM EAT
-**Award Ceremony**: April 11th, 2024, 6:30 PM EAT  
+**Award Ceremony**: April 11th, 2024, 1:00 PM EAT  
 
 ---  
 
