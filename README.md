@@ -27,27 +27,11 @@ Your challenge is to build a **personal portfolio website** that showcases your 
 
 ---  
 
-## 👥 Peer Group Collaboration  
-
-To foster teamwork and ensure success for everyone, participants will be required to collaborate with their **peer groups**.  
-
-### Peer Group Structure:  
-- **Support**: Collaborate with your group members, share ideas, and troubleshoot issues together.  
-- **Leadership**: Each group's **peer group leader** will be responsible for guiding members and ensuring timely submissions.  
-- **Recognition**: Peer groups where all members successfully submit their portfolios by the deadline will receive **special recognition** during the Award Ceremony.  
-
-**Benefits of Peer Groups:**  
-- Get feedback on your portfolio before submission.  
-- Gain insights from your peers’ experiences.  
-- Celebrate success together as a team!  
-
----  
-
 ## 📅 Key Dates  
 
-**Start Date**: Mar 31st, 2025, 8:00 AM EAT
-**End Date**: April 4th, 2025, 8:00 AM EAT
-**Award Ceremony**: April 11th, 2024, 1:00 PM EAT  
+**Start Date**: July 30th, 2025, 12:00 PM EAT
+**End Date**: Aug 3rd, 2025, 12:00 PM EAT
+**Award Ceremony**: Aug 8th, 2025, 5:00 PM EAT  
 
 ---  
 
@@ -78,7 +62,7 @@ Feel free to reach out! [Contact Form](link-to-your-contact-form)
 1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
 2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
 3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form](https://forms.gle/7YStNrZ88iAzQB819) to share your GitHub repo.  
+4. **Submit Your Project**: Use [this form](https://forms.gle/DVvnaM5AzkXPpxYSA) to share your GitHub repo.  
 
 ---  
 
@@ -87,10 +71,10 @@ Feel free to reach out! [Contact Form](link-to-your-contact-form)
 - **Creativity and Ingenuity (20%)**: Original ideas and standout features.  
 - **Code Quality (20%)**: Clean, readable, and efficient code.  
 - **Documentation (15%)**: Informative README and clear code comments.  
-- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages or Netlify.  
+- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages, Netlify or Vercel.  
 - **Development Process (15%)**: Effective collaboration and project management.  
 - **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
-- ## 💡 Bonus Points: Individuals whose group members successfully submit a project will earn extra points for their contribution to teamwork and collaboration! 🎯
+
 
 ---  
 
