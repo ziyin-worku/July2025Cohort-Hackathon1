@@ -21,7 +21,8 @@ Your challenge is to build a **personal portfolio website** that showcases your 
 ## 🛠️ Guidelines  
 
 - **Skills**: Build your portfolio using HTML and CSS.  
-- **Individual Work**: This is a solo challenge—showcase your personal skills and creativity.  
+- **Individual Work**: This is a solo challenge—showcase your skills and creativity.
+- **Deskie Team Up**: This is you and your Deskie working together, merging your skills and creativity to come up with something great.
 - **Reference Material**: For additional details and helpful information, refer to [this document](https://docs.google.com/document/d/1v-F-tXa1dwV2w5oMkM2QzAuoFoQYZlOEuT5qeRKDTPA/edit?usp=sharing).  
 - **Submission**: Push your project to a **public GitHub repository** and complete the submission form.  
 
