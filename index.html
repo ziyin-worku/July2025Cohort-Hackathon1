@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackton-1 Portfolio </title>
-</head>
-<body>
+  <head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackton-1 Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header start here -->
     <div id="header">
       <div class="container">
         <nav>
-          <img src="./img/logo.png" class="logo" />
+          <img src="./img/logo.png" alt="logo" class="logo" />
+
+          <!-- Hidden Checkbox Toggle -->
+          <input type="checkbox" id="menu-toggle" />
+
+          <!-- Toggle Label with Font Awesome icons -->
+          <label for="menu-toggle" class="menu-btn">
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <i class="fa-solid fa-times menu-icon"></i>
+          </label>
+
+          <!-- Navigation Menu -->
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-times"></i>
           </ul>
-          <i class="fa-solid fa-bars"></i>
         </nav>
 
         <div class="header-text">
@@ -30,5 +45,6 @@
         </div>
       </div>
     </div>
-</body>
+    <!-- header end here -->
+  </body>
 </html>
