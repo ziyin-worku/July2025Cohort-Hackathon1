@@ -42,7 +42,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 
 No installation required! Simply visit the live site:
 
-🔗 [Live Demo](https://ziyintech.com)  
+🔗 [Live Demo](https://hackaton1-portfolio.netlify.app/)  
 🔗 [GitHub Repository](https://github.com/ziyin-worku/July2025Cohort-Hackathon1)
 
 ## How to Run Locally
