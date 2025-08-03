@@ -25,6 +25,9 @@ html {
 .container {
   padding: 10px 10%;
 }
+#header .container{
+  padding: 5px 5%;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -59,10 +62,12 @@ ul#sidemenu li a {
   font-weight: bold;
 }
 ul#sidemenu li a:hover {
-  color: #ffcc00;
+  color: #ff004f;
+  transition: color 0.3s ease;
+
 }
 ul#sidemenu li a.active {
-  color: #ffcc00;
+  color: #ff004f;
 }
 
 
@@ -120,26 +125,122 @@ ul#sidemenu li a.active {
   gap: 20px;
   color: #ffffffff;
 }
+/* education and skills */
+/* Enhance the #education section look */
+#education {
+  padding: 80px 0;
+  background: #0d0d0d;
+  color: #fff;
+ 
+}
+.skill-category {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ffffffff;
+  border-left: 4px solid #ff004f;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Skill box styling */
 .skills {
   display: grid;
-  grid-template-columns: repeat( 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 10px;
-  padding: 10px;
+  padding: 10px 0;
+  list-style: none;
 }
+
 .skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px;
   text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
   font-size: 14px;
-  padding: 5px;
-  border: 1px solid  #4a4545e0;
-  border-radius: 10px;
-  color: #fff;
-  background: rgba(74, 69, 69, 0.88);
-  
+  color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
 }
+
+.skill:hover  {
+  background: #ff004f !important;
+  transform: translateY(-5px) !important;
+  color: #ffffff !important;
+}
+
+
+
+
+/* EDUCATION SECTION */
+
+#education .tab-contents ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+#education .tab-contents li {
+  background: #1f1f1f;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+#education .tab-contents li:hover {
+  background: #2b2b2b;
+  transform: translateX(5px);
+}
+
+#education .tab-contents li span {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+
+
+  display: block;
+  margin-bottom: 6px;
+}
+
+#education .tab-contents li p {
+  font-size: 14px;
+  margin: 2px 0;
+  color: #cccccc;
+  line-height: 1.5;
+}
+
+
+/* BUTTON CV DOWNLOAD */
+.btn.btn2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ff004f, #ff7a59);
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 0, 79, 0.3);
+}
+
+.btn.btn2:hover {
+  background: linear-gradient(to right, #ff7a59, #ff004f);
+  transform: scale(1.05);
+}
+
+/* ICON INSIDE BUTTON */
+.btn.btn2 i {
+  font-size: 16px;
+}
+
 
 
 /* -------------------Interests-------------- */
@@ -319,10 +420,6 @@ ul#sidemenu li a.active {
   transition: background-color 0.3s ease;
 }
 
-.btn.btn2:hover {
-  background-color: #0056b3;
-  background-color: #ff815e;
-}
 
 .contact-right form {
   width: 100%;
@@ -358,9 +455,8 @@ form .btn2 {
 }
 
 
-
-@media only screen and (max-width: 600px){
- .menu-icon {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .menu-icon {
     display: block;
   }
 
@@ -397,6 +493,59 @@ form .btn2 {
   ul#sidemenu li a {
     font-size: 18px;
   }
+  
+  #education .about-col-1 {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  #education .about-col-2 {
+    flex-basis: 50%;
+  }
+  
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .menu-icon {
+    display: block;
+  }
+
+  ul#sidemenu {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #222;
+    display: none;
+    padding: 20px 0;
+    z-index: 1;
+  }
+   #menu-toggle:checked ~ ul#sidemenu {
+    display: flex;
+  }
+
+  .menu-btn .fa-times {
+    display: none;
+  }
+
+  #menu-toggle:checked + label .fa-bars {
+    display: none;
+  }
+
+  #menu-toggle:checked + label .fa-times {
+    display: inline;
+  }
+  ul#sidemenu li {
+    padding: 5px 15px;
+    text-align: center;
+  }
+  ul#sidemenu li a {
+    font-size: 18px;
+  }
+ 
   #header {
     background-image: url(../img/photo-1531297484001-80022131f5a1.avif);
   }
@@ -453,3 +602,25 @@ form .btn2 {
 #msg.error {
   color: #ff004f;
 }
+
+
+.skill, #education .tab-contents li {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+.skill:nth-child(odd), #education .tab-contents li:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+.skill:nth-child(even), #education .tab-contents li:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
