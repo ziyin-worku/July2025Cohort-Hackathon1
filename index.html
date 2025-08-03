@@ -1,448 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ziyin Worku | Full-Stack Developer Portfolio</title>
-  <meta name="description" content="Professional portfolio of Ziyin Worku, Full-Stack Developer specializing in React, Node.js, and modern web technologies.">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <!-- Header Section -->
-  <header id="header">
-    <div class="container">
-      <nav class="navbar">
-        <a href="#" class="logo-link">
-          <img src="./img/logo.png" alt="Ziyin Worku Logo" class="logo" width="120" height="40">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ziyin Worku | Full-Stack Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Professional portfolio of Ziyin Worku, Full-Stack Developer specializing in React, Node.js, and modern web technologies."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo-link">
+            <img
+              src="./img/logo.png"
+              alt="Ziyin Worku Logo"
+              class="logo"
+              width="120"
+              height="40"
+            />
+          </a>
+
+          <!-- Mobile Menu Toggle -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label
+            for="menu-toggle"
+            class="menu-btn"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="menu-icon">
+              <span class="menu-line"></span>
+              <span class="menu-line"></span>
+              <span class="menu-line"></span>
+            </span>
+          </label>
+
+          <!-- Navigation Menu -->
+          <ul id="sidemenu" class="nav-menu">
+            <li class="nav-item">
+              <a href="#header" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#interests" class="nav-link">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hero-content">
+          <p class="hero-subtitle">Full-stack Developer</p>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Ziyin</span> Worku
+          </h1>
+          <p class="hero-description">
+            Building digital experiences that matter
+          </p>
+
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/ziyin-worku-4a8979171/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/ziyin-worku/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://x.com/ziyinworku"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter profile"
+            >
+              <i class="fa-solid fa-x"></i>
+            </a>
+          </div>
+        </div>
+
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+          <i class="fas fa-chevron-down"></i>
         </a>
+      </div>
+    </header>
 
-        <!-- Mobile Menu Toggle -->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="menu-btn" aria-label="Toggle navigation menu">
-          <span class="menu-icon">
-            <span class="menu-line"></span>
-            <span class="menu-line"></span>
-            <span class="menu-line"></span>
-          </span>
-        </label>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="./img/picuser2.jpg"
+              alt="Ziyin Worku portrait"
+              width="400"
+              height="400"
+              class="profile-img"
+            />
+          </div>
+          <div class="about-content">
+            <p class="about-text">
+              I'm Ziyin Worku, a passionate full-stack developer with expertise
+              in designing and developing scalable web applications. I
+              specialize in React, Node.js, Firebase, and API integrations,
+              crafting seamless user experiences with modern technologies.
+            </p>
+            <p class="about-text">
+              With a keen eye for detail and a problem-solving mindset, I build
+              efficient, high-performance applications that drive innovation. My
+              background in Environmental Health gives me a unique perspective
+              on creating technology solutions with real-world impact.
+            </p>
 
-        <!-- Navigation Menu -->
-        <ul id="sidemenu" class="nav-menu">
-          <li class="nav-item"><a href="#header" class="nav-link active">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
-          <li class="nav-item"><a href="#portfolio" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="hero-content">
-        <p class="hero-subtitle">Full-stack Developer</p>
-        <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Ziyin</span> Worku
-        </h1>
-        <p class="hero-description">Building digital experiences that matter</p>
-        
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/ziyin-worku-4a8979171/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/ziyin-worku/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#" aria-label="Twitter profile">
-            <i class="fab fa-twitter"></i>
-          </a>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <a href="#about" class="scroll-down" aria-label="Scroll down">
-        <i class="fas fa-chevron-down"></i>
-      </a>
-    </div>
-  </header>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-image">
-          <img src="./img/picuser2.jpg" alt="Ziyin Worku portrait" width="400" height="400" class="profile-img">
+    <!-- Education & Skills Section -->
+    <section id="education" class="section dark-section">
+      <div class="container">
+        <div class="education-grid">
+          <div class="skills-column">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-section">
+              <h3 class="skills-category">
+                <i class="fas fa-laptop-code"></i> Technical Skills
+              </h3>
+              <div class="skills-container">
+                <div class="skill-item" style="--animation-delay: 0.1s">
+                  <span class="skill-name">HTML5</span>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" style="--animation-delay: 0.2s">
+                  <span class="skill-name">CSS3</span>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" style="--animation-delay: 0.3s">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" style="--animation-delay: 0.4s">
+                  <span class="skill-name">React</span>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item" style="--animation-delay: 0.5s">
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-section">
+              <h3 class="skills-category">
+                <i class="fas fa-people-arrows"></i> Soft Skills
+              </h3>
+              <ul class="soft-skills-list">
+                <li class="soft-skill-item">Problem Solving</li>
+                <li class="soft-skill-item">Team Collaboration</li>
+                <li class="soft-skill-item">Communication</li>
+                <li class="soft-skill-item">Adaptability</li>
+                <li class="soft-skill-item">Time Management</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="education-column">
+            <h2 class="section-title">Education</h2>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                  <h3 class="timeline-title">BSc in Environmental Health</h3>
+                  <p class="timeline-institution">Wollo University, Ethiopia</p>
+                  <p class="timeline-description">
+                    Graduated with honors, developed strong analytical and
+                    research skills.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                  <h3 class="timeline-title">Full-Stack Web Development</h3>
+                  <p class="timeline-institution">Evangadi Network Bootcamp</p>
+                  <p class="timeline-description">
+                    Completed intensive MERN stack program with focus on modern
+                    web development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                  <h3 class="timeline-title">Python Programming</h3>
+                  <p class="timeline-institution">Stanford Code in Place</p>
+                  <p class="timeline-description">
+                    Completed rigorous programming course from Stanford
+                    University.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                  <h3 class="timeline-title">MSc in Environmental Health</h3>
+                  <p class="timeline-institution">Wollo University, Ethiopia</p>
+                  <p class="timeline-description">
+                    Expected graduation with focus on environmental data
+                    analysis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="./img/Ziyin-Worku_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="download-btn"
+            >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
         </div>
-        <div class="about-content">
-          <p class="about-text">
-            I'm Ziyin Worku, a passionate full-stack developer with expertise in designing and developing scalable web applications. I specialize in React, Node.js, Firebase, and API integrations, crafting seamless user experiences with modern technologies.
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+      <div class="container">
+        <h2 class="section-title">My Interests</h2>
+        <p class="section-subtitle">What drives my passion for technology</p>
+
+        <div class="interests-grid">
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="interest-title">Web Development</h3>
+            <p class="interest-description">
+              Crafting responsive, user-friendly applications with modern
+              frameworks like React and Express.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="interest-title">Problem Solving</h3>
+            <p class="interest-description">
+              Debugging, optimizing code, and building efficient solutions that
+              improve performance.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="interest-title">Emerging Tech</h3>
+            <p class="interest-description">
+              Exploring AI, cybersecurity, and data-driven decision making
+              applications.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3 class="interest-title">Tech for Good</h3>
+            <p class="interest-description">
+              Creating impactful solutions in health, education, and
+              sustainability sectors.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3 class="interest-title">Continuous Learning</h3>
+            <p class="interest-description">
+              Always expanding my skillset with new technologies and
+              methodologies.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="interest-title">Remote Collaboration</h3>
+            <p class="interest-description">
+              Working with global teams using Git, GitHub, and agile
+              methodologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section dark-section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">A selection of my recent work</p>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <figure class="project-card">
+              <img
+                src="./img/netflix.jpg"
+                alt="Netflix Clone Project"
+                class="project-image"
+                width="600"
+                height="400"
+              />
+              <figcaption class="project-overlay">
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-description">
+                  React application using TMDB API to display trending movies
+                  and genres.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://netflxclonebyzyn.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/ziyin-worku/Netflix-Clone/tree/main/netflix-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="portfolio-item">
+            <figure class="project-card">
+              <img
+                src="./img/amazon.jpg"
+                alt="Amazon Clone Project"
+                class="project-image"
+                width="600"
+                height="400"
+              />
+              <figcaption class="project-overlay">
+                <h3 class="project-title">Amazon Clone</h3>
+                <p class="project-description">
+                  E-commerce platform replica using Firebase, Express, and
+                  React.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://amazonclonzyn.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/ziyin-worku/Amazon_clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="portfolio-item">
+            <figure class="project-card">
+              <img
+                src="./img/Evangadi_forum.jpg"
+                alt="Evangadi Forum Project"
+                class="project-image"
+                width="600"
+                height="400"
+              />
+              <figcaption class="project-overlay">
+                <h3 class="project-title">Evangadi Forum</h3>
+                <p class="project-description">
+                  Q&A platform built with React, Express, and MySQL.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://evangadiforum.ziyintech.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/ziyin-worku/EVANGADI_FORUM_final"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="portfolio-item">
+            <figure class="project-card">
+              <img
+                src="./img/portfolio.png"
+                alt="Portfolio Project"
+                class="project-image"
+                width="600"
+                height="400"
+              />
+              <figcaption class="project-overlay">
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-description">
+                  Responsive portfolio showcasing skills and projects.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://ziyintech.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/ziyin-worku/my-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I'm currently available for freelance work or full-time positions
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-method">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3 class="contact-method-title">Email</h3>
+                <a href="mailto:ziyinworku@gmail.com" class="contact-link"
+                  >ziyinworku@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3 class="contact-method-title">Phone</h3>
+                <a href="tel:+251946120195" class="contact-link"
+                  >+251 9 4612 0195</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3 class="contact-method-title">Location</h3>
+                <p class="contact-text">Dessie, Ethiopia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" name="contact" netlify>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  class="form-input"
+                />
+                <label for="name" class="form-label">Your Name</label>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  class="form-input"
+                />
+                <label for="email" class="form-label">Your Email</label>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  required
+                  class="form-input"
+                ></textarea>
+                <label for="message" class="form-label">Your Message</label>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="./img/logo.png"
+              alt="Ziyin Worku Logo"
+              class="logo"
+              width="120"
+              height="40"
+            />
+          </div>
+
+          <div class="footer-links">
+            <a href="#header" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#education" class="footer-link">Skills</a>
+            <a href="#portfolio" class="footer-link">Projects</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/ziyin-worku/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/ziyin-worku/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/ziyinworku" class="social-icon">
+              <i class="fa-solid fa-x"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; <span id="year"></span> Ziyin Worku. All rights reserved.
           </p>
-          <p class="about-text">
-            With a keen eye for detail and a problem-solving mindset, I build efficient, high-performance applications that drive innovation. My background in Environmental Health gives me a unique perspective on creating technology solutions with real-world impact.
-          </p>
-          
-          <div class="stats-grid">
-            <div class="stat-item">
-              <span class="stat-number">5+</span>
-              <span class="stat-label">Projects Completed</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">3</span>
-              <span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">12+</span>
-              <span class="stat-label">Technologies</span>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Education & Skills Section -->
-  <section id="education" class="section dark-section">
-    <div class="container">
-      <div class="education-grid">
-        <div class="skills-column">
-          <h2 class="section-title">Skills</h2>
-          
-          <div class="skills-section">
-            <h3 class="skills-category">
-              <i class="fas fa-laptop-code"></i> Technical Skills
-            </h3>
-            <div class="skills-container">
-              <div class="skill-item" style="--animation-delay: 0.1s">
-                <span class="skill-name">HTML5</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 95%"></div>
-                </div>
-              </div>
-              <div class="skill-item" style="--animation-delay: 0.2s">
-                <span class="skill-name">CSS3</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 90%"></div>
-                </div>
-              </div>
-              <div class="skill-item" style="--animation-delay: 0.3s">
-                <span class="skill-name">JavaScript</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 85%"></div>
-                </div>
-              </div>
-              <div class="skill-item" style="--animation-delay: 0.4s">
-                <span class="skill-name">React</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 80%"></div>
-                </div>
-              </div>
-              <div class="skill-item" style="--animation-delay: 0.5s">
-                <span class="skill-name">Node.js</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 75%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="skills-section">
-            <h3 class="skills-category">
-              <i class="fas fa-people-arrows"></i> Soft Skills
-            </h3>
-            <ul class="soft-skills-list">
-              <li class="soft-skill-item">Problem Solving</li>
-              <li class="soft-skill-item">Team Collaboration</li>
-              <li class="soft-skill-item">Communication</li>
-              <li class="soft-skill-item">Adaptability</li>
-              <li class="soft-skill-item">Time Management</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div class="education-column">
-          <h2 class="section-title">Education</h2>
-          
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-date">2022</div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">BSc in Environmental Health</h3>
-                <p class="timeline-institution">Wollo University, Ethiopia</p>
-                <p class="timeline-description">Graduated with honors, developed strong analytical and research skills.</p>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-date">2025</div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Full-Stack Web Development</h3>
-                <p class="timeline-institution">Evangadi Network Bootcamp</p>
-                <p class="timeline-description">Completed intensive MERN stack program with focus on modern web development.</p>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-date">2025</div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Python Programming</h3>
-                <p class="timeline-institution">Stanford Code in Place</p>
-                <p class="timeline-description">Completed rigorous programming course from Stanford University.</p>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-date">2026</div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">MSc in Environmental Health</h3>
-                <p class="timeline-institution">Wollo University, Ethiopia</p>
-                <p class="timeline-description">Expected graduation with focus on environmental data analysis.</p>
-              </div>
-            </div>
-          </div>
-          
-          
-          <a href="./img/Ziyin-Worku_Resume.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
-  <i class="fas fa-download"></i> Download Resume
-</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interests Section -->
-  <section id="interests" class="section">
-    <div class="container">
-      <h2 class="section-title">My Interests</h2>
-      <p class="section-subtitle">What drives my passion for technology</p>
-      
-      <div class="interests-grid">
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3 class="interest-title">Web Development</h3>
-          <p class="interest-description">Crafting responsive, user-friendly applications with modern frameworks like React and Express.</p>
-        </div>
-        
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-lightbulb"></i>
-          </div>
-          <h3 class="interest-title">Problem Solving</h3>
-          <p class="interest-description">Debugging, optimizing code, and building efficient solutions that improve performance.</p>
-        </div>
-        
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-brain"></i>
-          </div>
-          <h3 class="interest-title">Emerging Tech</h3>
-          <p class="interest-description">Exploring AI, cybersecurity, and data-driven decision making applications.</p>
-        </div>
-        
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-heart"></i>
-          </div>
-          <h3 class="interest-title">Tech for Good</h3>
-          <p class="interest-description">Creating impactful solutions in health, education, and sustainability sectors.</p>
-        </div>
-        
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-book-open"></i>
-          </div>
-          <h3 class="interest-title">Continuous Learning</h3>
-          <p class="interest-description">Always expanding my skillset with new technologies and methodologies.</p>
-        </div>
-        
-        <div class="interest-card">
-          <div class="interest-icon">
-            <i class="fas fa-globe"></i>
-          </div>
-          <h3 class="interest-title">Remote Collaboration</h3>
-          <p class="interest-description">Working with global teams using Git, GitHub, and agile methodologies.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="section dark-section">
-    <div class="container">
-      <h2 class="section-title">My Projects</h2>
-      <p class="section-subtitle">A selection of my recent work</p>
-      
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <figure class="project-card">
-            <img src="./img/netflix.jpg" alt="Netflix Clone Project" class="project-image" width="600" height="400">
-            <figcaption class="project-overlay">
-              <h3 class="project-title">Netflix Clone</h3>
-              <p class="project-description">React application using TMDB API to display trending movies and genres.</p>
-              <div class="project-links">
-                <a href="https://netflxclonebyzyn.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <a href="https://github.com/ziyin-worku/Netflix-Clone/tree/main/netflix-clone" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fab fa-github"></i> Source Code
-                </a>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        
-        <div class="portfolio-item">
-          <figure class="project-card">
-            <img src="./img/amazon.jpg" alt="Amazon Clone Project" class="project-image" width="600" height="400">
-            <figcaption class="project-overlay">
-              <h3 class="project-title">Amazon Clone</h3>
-              <p class="project-description">E-commerce platform replica using Firebase, Express, and React.</p>
-              <div class="project-links">
-                <a href="https://amazonclonzyn.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <a href="https://github.com/ziyin-worku/Amazon_clone" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fab fa-github"></i> Source Code
-                </a>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        
-        <div class="portfolio-item">
-          <figure class="project-card">
-            <img src="./img/Evangadi_forum.jpg" alt="Evangadi Forum Project" class="project-image" width="600" height="400">
-            <figcaption class="project-overlay">
-              <h3 class="project-title">Evangadi Forum</h3>
-              <p class="project-description">Q&A platform built with React, Express, and MySQL.</p>
-              <div class="project-links">
-                <a href="https://evangadiforum.ziyintech.com/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <a href="https://github.com/ziyin-worku/EVANGADI_FORUM_final" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fab fa-github"></i> Source Code
-                </a>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        
-        <div class="portfolio-item">
-          <figure class="project-card">
-            <img src="./img/portfolio.png" alt="Portfolio Project" class="project-image" width="600" height="400">
-            <figcaption class="project-overlay">
-              <h3 class="project-title">Portfolio Website</h3>
-              <p class="project-description">Responsive portfolio showcasing skills and projects.</p>
-              <div class="project-links">
-                <a href="https://ziyintech.com/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <a href="https://github.com/ziyin-worku/my-portfolio" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fab fa-github"></i> Source Code
-                </a>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="section-subtitle">I'm currently available for freelance work or full-time positions</p>
-      
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="contact-method">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <h3 class="contact-method-title">Email</h3>
-              <a href="mailto:ziyinworku@gmail.com" class="contact-link">ziyinworku@gmail.com</a>
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <i class="fas fa-phone"></i>
-            <div>
-              <h3 class="contact-method-title">Phone</h3>
-              <a href="tel:+251946120195" class="contact-link">+251 9 4612 0195</a>
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <h3 class="contact-method-title">Location</h3>
-              <p class="contact-text">Dessie, Ethiopia</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="contact-form-container">
-          <form class="contact-form" name="contact" netlify>
-            <div class="form-group">
-              <input type="text" name="name" id="name" required class="form-input">
-              <label for="name" class="form-label">Your Name</label>
-            </div>
-            
-            <div class="form-group">
-              <input type="email" name="email" id="email" required class="form-input">
-              <label for="email" class="form-label">Your Email</label>
-            </div>
-            
-            <div class="form-group">
-              <textarea name="message" id="message" rows="5" required class="form-input"></textarea>
-              <label for="message" class="form-label">Your Message</label>
-            </div>
-            
-            <button type="submit" class="submit-btn">
-              Send Message <i class="fas fa-paper-plane"></i>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <img src="./img/logo.png" alt="Ziyin Worku Logo" class="logo" width="120" height="40">
-        </div>
-        
-        <div class="footer-links">
-          <a href="#header" class="footer-link">Home</a>
-          <a href="#about" class="footer-link">About</a>
-          <a href="#education" class="footer-link">Skills</a>
-          <a href="#portfolio" class="footer-link">Projects</a>
-          <a href="#contact" class="footer-link">Contact</a>
-        </div>
-        
-        <div class="footer-social">
-          <a href="https://www.linkedin.com/in/ziyin-worku-4a8979171/" target="_blank" rel="noopener noreferrer" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/ziyin-worku/" target="_blank" rel="noopener noreferrer" class="social-icon">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p class="copyright">&copy; <span id="year"></span> Ziyin Worku. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
