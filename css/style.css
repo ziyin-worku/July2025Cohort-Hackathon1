@@ -30,7 +30,6 @@ body {
   color: var(--text-color);
   background-color: var(--white);
   overflow-x: hidden;
-  background:red
 }
 
 h1, h2, h3, h4 {
