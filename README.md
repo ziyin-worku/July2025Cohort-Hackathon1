@@ -49,5 +49,5 @@ No installation required! Simply visit the live site:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ziyin-worku/my-portfolio.git
+   https://github.com/ziyin-worku/July2025Cohort-Hackathon1.git
 2. Open index.html in your browser
